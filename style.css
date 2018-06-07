@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, Sans-Serif;
+    overflow: hidden;
+}
+
+#baloonFlyingZone{
+    width:600px;
+    height: 600px;
+       
+}
+
+.balloon{
+    border-radius: 50%;
+    position:absolute;
+    
+}
+.balloon:hover{
+    filter:brightness(150%);
+    transition:filter 2s;    
+}
